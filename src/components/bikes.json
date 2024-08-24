@@ -1,0 +1,51 @@
+{
+    "Standard":{
+        "glamour":[{
+            "company":"Hero",
+            "model": "Glamour 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "0, 126, 213"
+        }],
+        "unicorn":[{
+            "company":"Honda",
+            "model": "CB Unicorn 150",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "212, 39, 47"
+        }],
+        "platina":[{
+            "company":"Bajaj",
+            "model": "Platina 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "211, 178, 103"
+        }]
+    },
+
+    "Scooter":{
+        "jupiter":[{
+            "company":"TVS",
+            "model": "glamour 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "211, 178, 103"
+        }],
+        "ather450x":[{
+            "company":"TVS",
+            "model": "glamour 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "21, 178, 103"
+        }],
+        "activa":[{
+            "company":"TVS",
+            "model": "glamour 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "1, 1, 203"
+        }]
+    },
+    "Sports":{},
+    "Offroad":{}
+}

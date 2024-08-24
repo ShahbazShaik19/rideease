@@ -1,0 +1,11 @@
+.bikeDisplay{
+    transition: opaallcity 0.5s ease;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+ .showBikes{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,58 @@
+.bikeGradient{
+    aspect-ratio: 16/19;
+    min-width: 200px;
+    width: 18vw;
+    /* background-image: linear-gradient(#fff 25%,rgba(0, 126, 213, 0.8) 50%); */
+    border-radius: 2vw;
+    position: relative;
+    margin: 1vw;
+    transition: scale 300ms ease-in-out;
+    
+
+    padding: 1vw;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bikeGradient:hover{
+    scale: 1.05;
+    transition: scale 300ms ease-in-out;
+}
+
+.bikeGradient img{
+    width: 100%;
+}
+
+.bikeText{
+    padding: 1vw 1vw;
+}
+
+.bikeCompany{
+    font-size: 16px;    
+}
+.bikeModel{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bikeSpecs{
+    font-size: 12px;
+    margin: 0.5vw 0;
+}
+.bikeCost{
+    font-size: 20px;
+    /* color: #fff; */
+}
+
+.bikeRentButton{
+    background-color: rgba(41, 41, 41, 23%);
+    position: absolute;
+    right: 1vw;
+    bottom: 1vw;
+    padding: 1vw;
+    aspect-ratio: 1/1;
+    width: 4vw;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
