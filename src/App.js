@@ -3,6 +3,7 @@ import BikeMenu from './components/BikeMenu';
 import BikeDisplay from './components/BikeDisplay.js';
 import bikesData from './components/bikes.json';
 import './App.css';
+import Review from './components/Review.js';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("Standard");
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <BikeMenu 
+      {/* <BikeMenu 
         categories={categories} 
         selectedCategory={selectedCategory}
         onSelectCategory={setSelectedCategory} 
@@ -25,7 +26,14 @@ function App() {
       <BikeDisplay 
         selectedCategory={selectedCategory} 
         bikes={bikeCategoryArray}
-      />
+      /> */}
+      <div className='reviewContainer'>
+        <Review />
+        <Review />
+        <Review />
+      </div>
+      
+      
     </div>
   );
 }

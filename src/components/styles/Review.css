@@ -1,0 +1,49 @@
+.review{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 2vw;
+    margin: 2vw 1vw;
+
+    box-shadow: 2px 2px 10px #aaa;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.reviewMain{
+    display: flex;
+    width: 100%;
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 1vw;
+}
+.reviewMain img{
+    width: 5vw;
+}
+
+.reviewStars{
+    padding-left: 1vw;
+}
+
+.reviewStars img{
+    width: 8vw;
+}
+
+.reviewName{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reviewCity{
+    font-size: 14px;
+}
+
+.reviewText{
+    padding-top: 1vw;
+    text-align: center;
+    font-size: 14px;
+}
