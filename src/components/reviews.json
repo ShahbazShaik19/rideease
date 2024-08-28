@@ -1,6 +1,22 @@
-{
+[{
         "name": "Wanda",
+        "city": "Brooklyn",
+        "heading": "College Commute Solution",
+        "text": "As a college student, I needed an affordable way to get around campus. RideEase has been a game-changer. The bikes are well-maintained, and real-time tracking means I never waste time searching. It fits perfectly into my busy schedule!"
+},
+{
+        "name": "Steve",
         "city": "Sokovia",
-        "heading": "heading",
-        "text": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor "
+        "heading": "Ideal for Exploration",
+        "text": "I travel a lot, and RideEase is my go-to for exploring new cities. The app’s user-friendly design and reliable bike availability make it easy to navigate. I love picking up a bike at one location and dropping it off at another. It’s perfect for errands and leisurely rides. Highly recommend!"
+
+
+},
+{
+        "name": "Clint",
+        "city": "New York",
+        "heading": "Effortless City Commuting",
+        "text": "RideEase has changed my city commute. I used to dread public transport, but now I just open the app, find a bike, and I'm on my way. The bikes are always in great condition and the app is super easy to use. It's affordable and has made my daily travel so much more enjoyable!"
 }
+
+]

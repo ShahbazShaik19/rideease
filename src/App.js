@@ -2,6 +2,7 @@ import { useState } from 'react';
 import BikeMenu from './components/BikeMenu';
 import BikeDisplay from './components/BikeDisplay.js';
 import bikesData from './components/bikes.json';
+import reviewsData from './components/reviews.json';
 import './App.css';
 import Review from './components/Review.js';
 
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <BikeMenu 
+      <BikeMenu 
         categories={categories} 
         selectedCategory={selectedCategory}
         onSelectCategory={setSelectedCategory} 
@@ -26,11 +27,11 @@ function App() {
       <BikeDisplay 
         selectedCategory={selectedCategory} 
         bikes={bikeCategoryArray}
-      /> */}
+      />
       <div className='reviewContainer'>
-        <Review />
-        <Review />
-        <Review />
+        <Review review={reviewsData[0]} />
+        <Review review={reviewsData[1]} />
+        <Review review={reviewsData[2]} />
       </div>
       
       

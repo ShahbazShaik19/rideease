@@ -11,7 +11,6 @@ const importAll = (r) => {
 const images = importAll(require.context('../assets', false, /\.(png|jpe?g|svg)$/));
 
 const Bike = ({bike}) => {
-  console.log(bike.model.split(" ")[0]);
    const imageSrc = images[bike.bikeImage+'.png'];
 
   return (

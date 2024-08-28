@@ -46,6 +46,23 @@
             "color": "1, 1, 203"
         }]
     },
-    "Sports":{},
-    "Offroad":{}
+    "Offroad":{
+        "kx450f":[{
+
+        }],
+    "himalayan":[{
+        "company":"TVS",
+        "model": "glamour 125",
+        "specs": "Manual • 124.7 CC • Petrol",
+        "cost": "549",
+        "color": "21, 178, 103"
+    }],
+    "ktmadventure":[{
+        "company":"TVS",
+        "model": "glamour 125",
+        "specs": "Manual • 124.7 CC • Petrol",
+        "cost": "549",
+        "color": "1, 1, 203"
+    }]
+    }
 }
