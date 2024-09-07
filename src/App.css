@@ -5,11 +5,19 @@
     flex-wrap: wrap;
 }
 
-.reviewContainer{
+.cardContainer{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    padding: clamp(10px,2vw, 30px);
     background-color: rgba(128, 178, 249, 0.253);
+}
+
+.reviewContainer .card{
+    box-shadow: 2px 2px 10px #aaa;
+    border-radius: 10px;
+    background-color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {

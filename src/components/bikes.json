@@ -19,7 +19,7 @@
             "model": "Platina 125",
             "specs": "Manual • 124.7 CC • Petrol",
             "cost": "549",
-            "color": "211, 178, 103"
+            "color": "165, 128, 59"
         }]
     },
 
@@ -29,40 +29,44 @@
             "model": "glamour 125",
             "specs": "Manual • 124.7 CC • Petrol",
             "cost": "549",
-            "color": "211, 178, 103"
+            "color": "184, 159, 142"
         }],
         "ather450x":[{
             "company":"TVS",
             "model": "glamour 125",
             "specs": "Manual • 124.7 CC • Petrol",
             "cost": "549",
-            "color": "21, 178, 103"
+            "color": "80, 186, 163"
         }],
         "activa":[{
             "company":"TVS",
             "model": "glamour 125",
             "specs": "Manual • 124.7 CC • Petrol",
             "cost": "549",
-            "color": "1, 1, 203"
+            "color": "28, 76, 126"
         }]
     },
     "Offroad":{
         "kx450f":[{
-
+            "company":"TVS",
+            "model": "glamour 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "50, 171, 73"
+            }],
+        "himalayan":[{
+            "company":"TVS",
+            "model": "glamour 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "144, 147, 144"
         }],
-    "himalayan":[{
-        "company":"TVS",
-        "model": "glamour 125",
-        "specs": "Manual • 124.7 CC • Petrol",
-        "cost": "549",
-        "color": "21, 178, 103"
-    }],
-    "ktmadventure":[{
-        "company":"TVS",
-        "model": "glamour 125",
-        "specs": "Manual • 124.7 CC • Petrol",
-        "cost": "549",
-        "color": "1, 1, 203"
-    }]
-    }
+        "ktmadventure":[{
+            "company":"TVS",
+            "model": "glamour 125",
+            "specs": "Manual • 124.7 CC • Petrol",
+            "cost": "549",
+            "color": "250, 100, 26  "
+        }]
+        }
 }

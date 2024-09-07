@@ -4,7 +4,7 @@ import BikeDisplay from './components/BikeDisplay.js';
 import bikesData from './components/bikes.json';
 import reviewsData from './components/reviews.json';
 import './App.css';
-import Review from './components/Review.js';
+import Card from './components/Card.js';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("Standard");
@@ -28,10 +28,13 @@ function App() {
         selectedCategory={selectedCategory} 
         bikes={bikeCategoryArray}
       />
-      <div className='reviewContainer'>
-        <Review review={reviewsData[0]} />
-        <Review review={reviewsData[1]} />
-        <Review review={reviewsData[2]} />
+      <div className="cardContainer">
+        <Card /><Card /><Card />
+      </div>
+      <div className='cardContainer reviewContainer'>
+        <Card review={reviewsData[0]} type="review" />
+        <Card review={reviewsData[1]} type="review" />
+        <Card review={reviewsData[2]} type="review" />
       </div>
       
       

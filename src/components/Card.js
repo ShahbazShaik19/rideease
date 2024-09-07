@@ -1,5 +1,5 @@
 import './styles/Review.css';
-import stars from '../assets/stars.svg'
+import { Rating } from '@mui/material';
 
 // Helper function to dynamically import images
 const importAll = (r) => {
@@ -11,24 +11,27 @@ const importAll = (r) => {
   // Dynamically import all images from the assets folder
   const images = importAll(require.context('../assets', false, /\.(png|jpe?g|svg)$/));
 
-const Review = (props) => {
-    const imageSrc = images[props.review["name"].toLowerCase()+'.png'];
+const Card = (props) => {
+
+    const imageSrc = props.review?images[props.review["name"].toLowerCase()+'.png' ]:"";
   return(
-    <div className="review">
-        <div className="reviewMain">
+    <div className="card">
+        <div className="cardMain">
             <img src={imageSrc} alt="profile" />
             <div>
-                <div className="reviewStars">
-                    <img src={stars} alt="5 star rating" /><br/>
+                { props.type==="review" && 
+                  <div className="reviewStars">
+                    <Rating value={5.0} precision={0.1} readOnly /><br/>
                     <span className="reviewName">{props.review["name"]} | </span>
                     <span className="reviewCity">{props.review["city"]}</span>
-                </div>
+                  </div>
+                }
             </div>
         </div>
-        <h3 className='reviewHeading'>{props.review["heading"]}</h3>
-        <div className="reviewText">{props.review["text"]}</div>
+        <h3 className='cardHeading'>{props.review?props.review["heading"] : "a"}</h3>
+        <div className="cardText">{props.review?props.review["text"] : "b"}</div>
     </div>
   )
 }
 
-export default Review;
+export default Card;

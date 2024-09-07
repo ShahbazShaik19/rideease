@@ -1,19 +1,17 @@
-.review{
+.card{
     width: 300px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    padding: 2vw;
-    margin: 2vw 1vw;
-
-    box-shadow: 2px 2px 10px #aaa;
-    border-radius: 5px;
-    height: 340px;
-    background-color: white;
+    padding: clamp(20px,2vw,30px);
+    margin: clamp(10px,1vw,30px) 1vw;
+    max-height: 35  0px;
+    
 }
 
-.reviewMain{
+.cardMain{
     display: flex;
     width: 100%;
     vertical-align: center;
@@ -22,8 +20,8 @@
 
     padding-bottom: 1vw;
 }
-.reviewMain img{
-    width: 5vw;
+.cardMain img{
+    width: clamp(44px,4vw, 64px);
 }
 
 .reviewStars{
@@ -43,7 +41,7 @@
     font-size: 14px;
 }
 
-.reviewText{
+.cardText{
     padding-top: 1vw;
     text-align: center;
     font-size: 14px;

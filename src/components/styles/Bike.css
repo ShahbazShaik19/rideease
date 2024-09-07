@@ -1,58 +1,114 @@
 .bikeGradient{
-    aspect-ratio: 16/19;
-    min-width: 200px;
-    width: 18vw;
+    min-width: 300px;
+    width: 22vw;
     /* background-image: linear-gradient(#fff 25%,rgba(0, 126, 213, 0.8) 50%); */
-    border-radius: 2vw;
+    border-radius: 10px;
     position: relative;
     margin: 1vw;
     transition: scale 300ms ease-in-out;
     
 
-    padding: 1vw;
+    padding: clamp(10px,1vw,20px);
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.bikeGradient:hover{
-    scale: 1.05;
+.bikeGradient:hover .bikeImage{
+    scale: 1.1;
+}
+
+.bikeImage{
+    width: 100%;
     transition: scale 300ms ease-in-out;
 }
 
-.bikeGradient img{
-    width: 100%;
+.MuiSvgIcon-root{
 }
 
-.bikeText{
-    padding: 1vw 1vw;
+.MuiRating-iconEmpty .MuiSvgIcon-root{
+
 }
+
+.bikeDetails{
+    padding: 1vw;
+    padding-bottom: 0;
+    bottom: 0vw;
+    width: calc(100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 10px;
+    
+}
+
+.bikeLocation{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
 .bikeCompany{
-    font-size: 16px;    
+    font-size: 14px;   
 }
 .bikeModel{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
-.bikeSpecs{
+
+.bikeRating{
+    color: white;
     font-size: 12px;
-    margin: 0.5vw 0;
+    display: flex;
+    align-items: center;
 }
+
+.bikeDelivery img{
+    padding-right: 10px;
+}
+
+.bikeDelivery{
+    position: absolute;
+    font-size: 12px;
+    background-color: aquamarine;
+    width: 50%;
+    right: 0;
+    padding: 0.2vw 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: Center;
+    /* Creates ribbon cut at the left side of the div */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 10px 50%); 
+    
+
+}
+
 .bikeCost{
-    font-size: 20px;
-    /* color: #fff; */
+    font-size: 18px;
 }
 
 .bikeRentButton{
-    background-color: rgba(41, 41, 41, 23%);
-    position: absolute;
-    right: 1vw;
-    bottom: 1vw;
-    padding: 1vw;
-    aspect-ratio: 1/1;
-    width: 4vw;
-    border-radius: 50%;
+    background-color: black;
+    color: white;
+    right: 0;
+    padding: clamp(15px,1vw, 30px);
+    padding-right: 15%;
+    padding-left: 15%;
+    border-radius: 5px;
+    cursor: pointer;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+option{
+    cursor: pointer;
 }
